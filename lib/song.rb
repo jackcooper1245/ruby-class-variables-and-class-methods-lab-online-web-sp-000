@@ -8,10 +8,12 @@ def initialize (name, artist, genre)
   @genre = genre
   @@count += 1
   @@genres << genre
+  @@artists << artist
 end
 
 @@count = 0
 @@genres = []
+@@artist = []
 
 def self.count
   @@count
@@ -19,6 +21,10 @@ end
 
 def self.genres
   @@genres.uniq
+end
+
+def self.artists
+  @@artists.uniq 
 end
 
 end
