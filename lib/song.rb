@@ -13,7 +13,7 @@ end
 
 @@count = 0
 @@genres = []
-@@artist = []
+@@artists = []
 
 def self.count
   @@count
