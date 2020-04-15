@@ -30,7 +30,8 @@ end
 def self.genre_count
   genre_count = Hash.new
   @@genres.each do |genre|
-    genre_count[genre.uniq] = 
+    if genre_count[genre]
+      genre_count =+ 1
   end
 end
 
