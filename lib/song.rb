@@ -28,9 +28,9 @@ def self.artists
 end
 
 def self.genre_count
-  genre_count = 
+  genre_count = Hash.new
   @@genres.each do |genre|
-    
+    genre_count
   end
 end
 
