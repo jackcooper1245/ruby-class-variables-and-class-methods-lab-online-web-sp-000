@@ -11,4 +11,8 @@ end
 
 @@count = 0
 
+def count
+  @@count
+end
+
 end
