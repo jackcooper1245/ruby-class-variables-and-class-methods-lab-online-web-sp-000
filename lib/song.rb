@@ -17,6 +17,7 @@ def count
   @@count
 end
 
-
+def self.genre
+end
 
 end
