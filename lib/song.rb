@@ -18,8 +18,7 @@ def count
 end
 
 def genres
-if @@genres.include?(@genre) 
-  @@genres
+@@genres.uniq
 end
 
 end
