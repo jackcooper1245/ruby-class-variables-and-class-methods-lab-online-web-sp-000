@@ -18,7 +18,8 @@ def count
 end
 
 def genres
-@@genres.uniq
+@@genres = @@genres.uniq
+@@genres
 end
 
 end
